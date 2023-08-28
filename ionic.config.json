@@ -1,0 +1,7 @@
+{
+  "name": "buskko",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
