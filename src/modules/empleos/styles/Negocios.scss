@@ -1,0 +1,81 @@
+.pageEmpleo {
+    .negocio {
+        color: black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+
+        .titulo {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .detalle {
+            display: grid;
+            grid-template-columns: 50% 50%;
+
+            img {
+                display: block;
+                height: 100px;
+                margin: auto;
+                border-radius: 10px;
+            }
+
+            .info {
+                padding: 0 10px 10px 10px;
+
+                .titulo {
+                    padding: 0;
+                    margin-bottom: 10px;
+
+                    span {
+                        display: block;
+                        font-size: 16px;
+                    }
+                }
+
+                .numero {
+                    margin-top: 20px;
+                    span {
+                        font-size: 22px;
+                        color: #757575;
+                    }
+
+                }
+
+            }
+        }
+
+        .footer {
+            padding: 10px;
+            display: grid;
+
+            .direccion {
+
+                margin-bottom: 5px;
+
+                span {
+                    color: #757575;
+                }
+            }
+
+            .botonera {
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+                .button {
+                    padding: 10px;
+                    margin: 0 0 0 auto;
+                    border-radius: 10px;
+                    background-color: #004358;
+                    text-decoration: none;
+                    color: white;
+                    height: 40px;
+                }
+            }
+
+
+
+        }
+    }
+}

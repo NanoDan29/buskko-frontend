@@ -1,24 +1,19 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+
+import { Route, Redirect } from 'react-router-dom';
+import '../styles/Home.css';
 
 const Home: React.FC = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
-    </IonPage>
+    <IonContent>
+    
+      <Route path="/home/subpage1" />
+      <Route path="/home/subpage2" />
+    
+      <Route exact path="/home">
+        <Redirect to="/home/subpage1" />
+      </Route>
+    </IonContent>
   );
 };
 

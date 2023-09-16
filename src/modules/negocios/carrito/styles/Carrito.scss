@@ -1,0 +1,121 @@
+.carritoPage {
+    background-color: #e6e6e6;
+
+    ion-icon {
+        font-size: 20px;
+    }
+
+    .gestionCompra {
+
+        background-color: white;
+        color: black;
+        margin: 0 10px 10px 10px;
+        padding: 10px;
+        position: fixed;
+        z-index: 10;
+        width: 96%;
+        border-radius: 5px;
+        box-shadow: 0px 1px 7px 6px rgba(0, 0, 0, 0.2);
+
+        .calculos {
+            display: grid;
+            grid-template-columns: 40% 60%;
+
+            span {}
+
+            .texto {}
+
+            .numero {
+                text-align: right;
+                color: #6e6e6e;
+            }
+        }
+
+        .botonera {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            margin-top: 10px;
+            padding: 10px;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+
+    ion-card {
+        border-radius: 10px;
+        width: 90%;
+        margin: auto;
+
+        margin-bottom: 10px;
+    }
+
+    .producto {
+
+        background-color: white;
+        border-radius: 10px;
+
+        .titulo {
+            padding: 10px;
+
+            span {
+                font-size: 16px;
+
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .detalle {
+
+            display: grid;
+
+
+            img {
+
+                display: block;
+                margin: auto;
+                height: 100px;
+            }
+
+            .info {
+
+                padding: 10px;
+
+                span {
+                    display: block;
+                }
+
+                a {
+
+                    display: block;
+                    
+                }
+
+                .titulo {
+
+                    span {
+                        font-size: 20px;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                }
+
+                .costo {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+
+                    .footer {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

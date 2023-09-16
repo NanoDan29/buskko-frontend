@@ -1,0 +1,82 @@
+.vacantePage {
+    background-color: white;
+
+    .contenedorVacante {
+
+        display: grid;
+
+        .header {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            .title {
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+
+            }
+
+            .logo {
+                img {
+                    display: block;
+                    padding: 10px;
+                }
+            }
+
+            .notificacion {
+                color: black;
+                background-color: transparent;
+                padding: 10px;
+                display: flex;
+                width: 100%;
+
+                button {
+                    padding: 10px;
+                    display: flex;
+                    gap: 5px;
+                    margin: auto;
+                    background-color: transparent;
+                    align-items: center;
+
+                    .icono {
+                        color: green;
+                        font-size: 20px;
+                    }
+
+                    .texto {
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .infoContent {
+            margin: auto;
+            border: solid 1px rgb(136, 136, 136);
+            width: 85%;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            .info {
+                display: grid;
+                margin-bottom: 20px;
+
+                .titulo {
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+
+                span {
+                    text-align: justify;
+
+                }
+            }
+        }
+
+        .submit {
+            margin: auto;
+        }
+    }
+}

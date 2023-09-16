@@ -1,0 +1,81 @@
+.productosPage {
+    .productosContent {
+        padding: 20px !important;
+    }
+
+    .card {
+        margin-bottom: 22px;
+
+        .producto {
+            background-color: white;
+            border-radius: 10px;
+
+            .titulo {
+                padding: 10px;
+
+                span {
+                    font-size: 18px;
+                    font-weight: bold;
+                    display: block;
+                    //text-align: center;
+                }
+            }
+
+            .detalle {
+
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+                img {
+
+                    height: 150px;
+                    margin: auto;
+                }
+
+                .info {
+
+                    padding: 5px;
+                    padding: 10px;
+                    display: grid;
+                    align-items: center;
+
+                    .codigo {
+                        span {
+                            display: block;
+
+                            font-weight: bold;
+                        }
+                    }
+
+                    .precio {
+                        span {
+                            display: block;
+                            font-size: 34px;
+                            text-align: center;
+                            color: #838383;
+                        }
+                    }
+
+                    .button {
+                        padding: 10px;
+                        margin: auto;
+                        border-radius: 10px;
+                        color: #004358;
+                        text-decoration: none;
+                        color: white;
+                        display: flex;
+                        gap: 5px;
+                        align-items: center;
+
+                        a {
+                            text-decoration: none;
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
